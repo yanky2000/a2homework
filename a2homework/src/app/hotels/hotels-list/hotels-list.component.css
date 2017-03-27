@@ -1,0 +1,32 @@
+.hotels-list-container_box {
+    height: 350px;
+    overflow: scroll;
+    padding: 0;
+
+}
+
+.mat-card {
+    padding: 0;
+    margin-right: 20px;
+}
+
+
+/*img {
+    margin-bottom: 20px
+}*/
+
+.side_widg {
+    display: flex;
+    flex-direction: row;
+} 
+
+.acts-list {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    background-color: orangered;
+}

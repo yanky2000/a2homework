@@ -1,0 +1,10 @@
+.smedia-container {
+    background-color: rgb(95,179,249);
+    color: white;
+    min-height: 150px;
+    margin-bottom: 40px;
+}
+
+img {
+    margin-bottom: 10px
+}

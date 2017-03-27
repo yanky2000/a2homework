@@ -1,0 +1,15 @@
+<md-card>
+  <img src="../assets/images/1.jpg" alt=" ">
+  <ul class="acts-list">
+    <li (click)="doFilter()">All</li>
+    <span *ngFor="let activity of leisureTypes">
+      <li (click)="doFilter(activity)">{{activity}}</li>
+      </span>
+  </ul>
+  <div class="hotels-list-container_box">
+    <app-hotel-thumbnail *ngFor="let hotel of (hotels | hotelFilter:leasureToSearch); let isOdd=odd" [hotel]="hotel" [isOdd]="isOdd"
+      (click)="hotelClickedHandler(hotel.id)">
+    </app-hotel-thumbnail>
+  </div>
+
+</md-card>

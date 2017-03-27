@@ -1,0 +1,19 @@
+
+img {
+    margin-right: 40px;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+.hotel-thumbnail-content {
+    display: flex
+}
+
+.active-hotel {
+    background-color: lightgrey;
+}
+
+.odd-bgc {
+    background-color:ghostwhite;
+}
