@@ -1,5 +1,5 @@
 <md-card>
-  <img src="../assets/images/1.jpg" alt=" ">
+  <img [src]="frontImage" alt="hotel">
   <ul class="acts-list">
     <li (click)="doFilter()">All</li>
     <span *ngFor="let activity of leisureTypes">

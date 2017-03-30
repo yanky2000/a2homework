@@ -3,17 +3,14 @@ type Hotel = {
   name: string,
   imageUrl: string,
   imageUrl2: string,
-  location: {
-    address: string,
-    city: string,
-  },
+  location: Loc,
   activityType: string,
   tel: string,
-  weather: {
-    temperature: number,
-    water: number
-  },
+  weather: Weather,
   likes: number,
   followers: number,
   stars: number
 };
+
+
+
