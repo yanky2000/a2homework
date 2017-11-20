@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
+import { HotelsService } from './common/services/hotels.service';
+import { LeisureService } from './common/services/leisure.service';
 import { HotelsModule } from './hotels/hotels.module';
 
 
@@ -14,6 +16,12 @@ import { HotelsModule } from './hotels/hotels.module';
     BrowserModule,
     HotelsModule,
     MaterialModule],
+
+  providers: [
+    HotelsService,
+    LeisureService
+
+  ],
 
   bootstrap: [AppComponent]
 })

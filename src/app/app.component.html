@@ -1,12 +1,11 @@
 <div class="main-container">
   <app-hotels-list class="hotels-list-container" 
     [hotels]="hotels"
-    [leisureTypes]="leisureTypes" 
     (hotelClicked)="setCurrentHotel($event)">
   </app-hotels-list>
 
   <div class="side_widg">
-    <app-smedia [hotel]="currentHotel"></app-smedia>
+    <app-smedia [hotel]="currentHotel"></app-smedia>-->
     <app-weather-details [hotel]="currentHotel"></app-weather-details>
   </div>
 
