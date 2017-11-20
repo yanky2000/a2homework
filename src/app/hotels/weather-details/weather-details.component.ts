@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-weather-details',
@@ -8,7 +9,9 @@ import { Component, Input } from '@angular/core';
 
 export class WeatherDetailsComponent {
 
-  @Input() 
-  public hotel
+  @Input()
+  public hotel: Hotel;
+
+  public weather_pic = `${environment.imagePath}wi.png`;
 
 }

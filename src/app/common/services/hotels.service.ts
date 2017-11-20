@@ -22,7 +22,6 @@ const HOTELS: Hotel[] = [
       id: 1,
       name: "Milan Marriott Hotel",
       imageUrl: `${environment.imagePath}milan_hotel2.png`,
-      imageUrl2: "../assets/images/r1.jpg",
       location: {
         address: "Via Giorgio Washington 66",
         city: "Milan",
@@ -41,7 +40,6 @@ const HOTELS: Hotel[] = [
       id: 2,
       name: "Lolita B and B",
       imageUrl: `${environment.imagePath}barcelona_hotel.jpg`,
-      imageUrl2: "../assets/images/r1.jpg",
       stars: 4,
       location: {
         address: "Carrer Provença 181, 2-2",
@@ -60,7 +58,6 @@ const HOTELS: Hotel[] = [
       id: 3,
       name: "The Ritz-Carlton",
       imageUrl: `${environment.imagePath}vienna_hotel.jpg`,
-      imageUrl2: "../assets/images/r1.jpg",
       stars: 3,
       location: {
         address: "Schubertring 5-7",
@@ -79,7 +76,6 @@ const HOTELS: Hotel[] = [
       id: 4,
       name: "The Vijitt Resort Phuket",
       imageUrl: `${environment.imagePath}phuket_hotel.jpg`,
-      imageUrl2: "../assets/images/r1.jpg",
       stars: 5,
       location: {
         address: "6 Moo 2, Viset Road",
